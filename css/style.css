@@ -1,0 +1,166 @@
+/* TODO: add CSS here */
+html,
+body {
+    font-size: 10px;
+    font-family: "Helvetica", "Arial", "Verdana", "NotoSansTC", "sans-serif", "roboto", "微軟正黑體";
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #4f4f4f;
+}
+
+a {
+    color: #4f4f4f;
+}
+
+a:hover {
+    color: #4f4f4f;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 4.2rem;
+}
+
+h2 {
+    font-size: 3.2rem;
+}
+
+h3 {
+    font-size: 2.6rem;
+}
+
+h4 {
+    font-size: 2rem;
+}
+
+h5 {
+    font-size: 1.8rem;
+}
+
+p {
+    font-size: 1.6rem;
+    line-height: 33px;
+    margin: 0;
+    padding: 0;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+h4 {
+    margin-bottom: 0.5rem;
+}
+
+ul,
+ol {
+    margin-left: 2rem;
+}
+
+ul,
+ol,
+li {
+    padding: 0;
+    font-size: 1.6rem;
+    line-height: 33px;
+}
+
+span{
+    font-size: 1.6rem;
+}
+
+img {
+    width: 100%;
+}
+
+.container-l {
+    width: 1520px;
+    max-width: 1520px;
+    margin: 0 auto;
+}
+
+.container-m {
+    width: 1400px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.container-s {
+    width: 1200px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container-xs {
+    width: 800px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.title {
+    color: #222222;
+    display: flex;
+    align-items: center;
+}
+
+.chii {
+    width: 5rem;
+}
+
+.p-block {
+    border-bottom: 1px solid #d0d0d0;
+    padding-bottom: 2rem;
+    margin-bottom: 3rem;
+}
+
+.album-item {
+    box-shadow: #00000020 0px 1px 3px 2px;
+    margin-bottom: 3rem;
+}
+
+.album-item-img {
+    width: 100%;
+    height: 0;
+    position: relative;
+    padding-bottom: 66%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.album-item-img img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.album-ellipsis-p {
+    padding: 1rem;
+}
+
+.albuminn-item {
+    margin-bottom: 3rem;
+}
+
+.albuminn-item a {
+    font-size: 1.6rem;
+    color: #333;
+}
+
+.albuminn-item span {
+    padding: 0.5rem 0 0 0;
+    display: inline-block;
+}

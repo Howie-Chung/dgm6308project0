@@ -1,0 +1,198 @@
+<!doctype html><!-- TODO: what's missing at the top? (check W3C validator)✅ -->
+<html>
+
+<head>
+    <title>Howie's Web Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="icon" type="images/png" href="images/chii.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="copyright" content="">
+    <!-- style -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+    <link rel="stylesheet" href="css/style.css"> <!-- TODO: add link to CSS file✅ -->
+
+</head>
+
+<body>
+    <div class="container-xs">
+        <!-- TODO: read the article and do it the other way that doesn't use "onclick" in the HTML file -->
+        <h1 class="title my-3 fw-bold" onclick="move()">
+            <img src="images/chii.png" class="chii" alt="chiikawa">Welcome to Howie's website
+        </h1>
+        <!-- <button onclick="changeColor('blue')">Blue</button>
+        <button onclick="changeColor('green')">Green</button>
+        <button onclick="changeColor('orangered')">Orange</button> -->
+
+        <div>
+            <p class="name-2">freeCodeCamp</p>
+            <button onclick="change()">Change</button>
+            <p id="my-paragraph">my-paragraph</p>
+        </div>
+        <p class="p-block">Hello, Professor Marc.<br />
+            I apologize for not noticing the Introduction assignment. I recall checking the course site last week and
+            did not see it at that time. If I submit my response here, would you be willing to consider granting partial
+            credit? I completely understand if that is not possible, but I wanted to ask.<br /> I’m very happy to have
+            the opportunity to take this JavaScript course, and I truly believe it will help me gain a deeper
+            understanding of the subject.
+        </p>
+
+        <div class="p-block">
+            <h4 class="fw-bold">Q1.What name do you prefer to be called?</h4>
+            <p>A1.You can call me Howie.</p>
+        </div>
+
+        <div class="p-block">
+            <h4 class="fw-bold">Q2.Have you done any coding of any kind? </h4>
+            <p>A2.I’ve been working as a UX/UI designer for almost 7 years, but I started learning HTML, CSS, and
+                JavaScript about 5 years ago. I’m very comfortable with HTML and CSS. For JavaScript, I mostly modify
+                templates and adjust values—I’m not very confident writing it from scratch. Also, at my previous company
+                we had dedicated front-end engineers, so after I completed the design and built the static site, I would
+                hand it off to the front-end engineer to implement the rest.</p>
+        </div>
+
+        <div class="p-block">
+            <h4 class="fw-bold">Q3.What have you created using code?</h4>
+            <p>A3.During my time at my previous company, I completed 130+ layout implementation projects, working with
+                clients ranging from airlines and government agencies to universities and museums.</p>
+            <span>Primary portfolio: <a href="https://iamhooowie.com/" target="_blank">Link</a></span><br/>
+            <span>Secondary portfolio: <a href="https://dribbble.com/iamhooowie" target="_blank">Link</a></span>
+        </div>
+
+        <div class="p-block">
+            <h4 class="fw-bold">Q4.What experience in creating digital media do you already have?</h4>
+            <p>A4.My primary expertise is UX/UI design, with a strong background in visual design. I also have
+                experience in video editing and motion graphics. During my undergraduate studies, my capstone project
+                was an app-based game centered around GPS, strategy, and collection mechanics. I was mainly responsible
+                for the UI design and in-game visual effects. At the time, I taught myself After Effects to complete the
+                motion effects. The project won 4 awards for both my team and me, and it ultimately solidified my
+                decision to pursue a career in design.</p>
+        </div>
+
+        <div class="p-block">
+            <h4 class="fw-bold">Q5.What digital media creation tools have you used?</h4>
+            <p>A5.Figma, Adobe XD, Illustrator, Photoshop, After Effect, premiere</p>
+        </div>
+
+        <div class="p-block">
+            <h4 class="fw-bold">Q6.Where did you get your undergraduate degree?</h4>
+            <p>A6.I am Taiwanese. I graduated from the Department of Multimedia Design at Taichung University of Science
+                and Technology.</p>
+        </div>
+
+        <div class="p-block">
+            <h4 class="fw-bold">Q7.Do you have any other degrees or advanced certifications in other subjects?
+            </h4>
+            <p>A7.No, I don't have it.</p>
+        </div>
+
+        <div class="p-block">
+            <h4 class="fw-bold">Q8.What is one topic about which you're quite knowledgeable? </h4>
+            <p>A8.I wouldn’t say I’m extremely knowledgeable, but I do have some experience with photography. I’ve
+                participated in a few photography competitions in the past and even won some awards. When I travel, I
+                don’t really care about what I buy or what I eat. What matters most to me is whether I can capture good
+                photos of the places I researched beforehand. Haha.
+            </p>
+        </div>
+
+        <div class="p-block">
+            <h4 class="fw-bold">Q9.What is your preferred pronunciation for your name?</h4>
+            <p>A9.Howie</p>
+        </div>
+
+        <div class="p-block">
+            <h4 class="fw-bold">Q10.What pronouns should people use when referring to you?</h4>
+            <p>A10.he/him</p>
+        </div>
+
+        <div class="p-block">
+            <h4 class="fw-bold">Q11.Where did you grow up? Where else have you lived?</h4>
+            <p>A11.Taiwan</p>
+        </div>
+
+        <div class="p-block">
+            <h4 class="fw-bold">Q12.What's your favorite place in the world?</h4>
+            <p>A12.Japan. I spent a month there in the summer of 2024, visiting the professor who mentored me in college
+                as well as some friends. I really loved the quiet and well-organized atmosphere.</p>
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="albuminn-item">
+                        <a class="" href="images/001.jpg" data-lightbox="example-set" data-title="JAL Sky Museum"><img
+                                class="example-image" src="images/001.jpg" alt="" /><span></span></a>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="albuminn-item">
+                        <a class="" href="images/002.jpg" data-lightbox="example-set"
+                            data-title="Takeda Castle nearby station"><img class="example-image" src="images/002.jpg"
+                                alt="" /><span></span></a>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="albuminn-item">
+                        <a class="" href="images/003.jpg" data-lightbox="example-set"
+                            data-title="Remotely Working with friend in Cafe"><img class="example-image"
+                                src="images/003.jpg" alt="" /><span></span></a>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="albuminn-item">
+                        <a class="" href="images/004.jpg" data-lightbox="example-set" data-title="In the train"><img
+                                class="example-image" src="images/004.jpg" alt="" /><span></span></a>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="albuminn-item">
+                        <a class="" href="images/005.jpg" data-lightbox="example-set"
+                            data-title="Professor and their family"><img class="example-image" src="images/005.jpg"
+                                alt="" /><span></span></a>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="albuminn-item">
+                        <a class="" href="images/006.jpg" data-lightbox="example-set"
+                            data-title="Nippara Limestone Caves"><img class="example-image" src="images/006.jpg"
+                                alt="" /><span></span></a>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="albuminn-item">
+                        <a class="" href="images/007.jpg" data-lightbox="example-set"
+                            data-title="Relaxing time with old firend who is marry to Japan"><img class="example-image"
+                                src="images/007.jpg" alt="" /><span></span></a>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="albuminn-item">
+                        <a class="" href="images/008.jpg" data-lightbox="example-set"
+                            data-title="21st Century Museum of Contemporary Art, Kanazawa."><img class="example-image"
+                                src="images/008.jpg" alt="" /><span></span></a>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="albuminn-item">
+                        <a class="" href="images/009.jpg" data-lightbox="example-set" data-title="In Osaka"><img
+                                class="example-image" src="images/009.jpg" alt="" /><span></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- JS -->
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/script.js"></script><!-- TODO: fix the invalid HTML here -->
+        <!-- lightbox -->
+        <script src="js/lightbox-plus-jquery.min.js"></script>
+</body>
+
+</html>
