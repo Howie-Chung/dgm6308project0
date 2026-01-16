@@ -101,7 +101,7 @@
 // 📝document.getElementById(config.paragraphId).style.color = color
 // }
 
-// 測試功能（點擊標題時執行）
+// Test Funciton
 /* Track and Debug */
 // 📝function test() {
 //     📝alert(getTextColor());
@@ -112,9 +112,9 @@
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
 /* initialization */
-// 📝setTextColor(config.color)  // 套用藍色    
+// 📝setTextColor(config.color)  // Use blue    
 /* Display in the F12 console */
-// 📝console.log(theWord) // 顯示 "hello"
+// 📝console.log(theWord) // Display "hello"
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
